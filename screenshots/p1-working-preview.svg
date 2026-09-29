@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="750" viewBox="0 0 1200 750">
+<rect width="1200" height="750" fill="#f4f6f8"/>
+<rect width="1200" height="76" fill="#fff" stroke="#dae1e7"/>
+<text x="38" y="34" font-family="Arial" font-size="27" font-weight="700" fill="#18212b">Construction PPE Compliance Monitor</text>
+<text x="38" y="58" font-family="Arial" font-size="14" fill="#65727e">Computer vision and safety event workflow - local prototype</text>
+<text x="950" y="42" font-family="Arial" font-size="13" font-weight="700" fill="#0d5c8f">LOCAL PROTOTYPE PREVIEW</text>
+
+<rect x="35" y="100" width="560" height="245" rx="12" fill="#fff" stroke="#dae1e7"/>
+<text x="58" y="133" font-family="Arial" font-size="19" font-weight="700" fill="#18212b">PPE Compliance Check</text>
+<rect x="58" y="160" width="510" height="88" rx="8" fill="#f7f9fb" stroke="#dae1e7"/>
+<rect x="83" y="188" width="58" height="35" fill="#777"/>
+<circle cx="112" cy="175" r="20" fill="#999"/>
+<path d="M87 178 Q112 145 137 178" fill="none" stroke="#e6e6e6" stroke-width="10"/>
+<text x="166" y="188" font-family="Arial" font-size="14" fill="#65727e">PPE result</text>
+<text x="166" y="216" font-family="Arial" font-size="25" font-weight="700" fill="#217e55">Compliant</text>
+<text x="58" y="278" font-family="Arial" font-size="14" font-weight="700" fill="#0d5c8f">POST /api/predict</text>
+<text x="58" y="304" font-family="Arial" font-size="14" fill="#65727e">SQLite incident persistence</text>
+
+<rect x="615" y="100" width="550" height="245" rx="12" fill="#fff" stroke="#dae1e7"/>
+<text x="638" y="133" font-family="Arial" font-size="19" font-weight="700" fill="#18212b">Model Evaluation</text>
+<text x="638" y="174" font-family="Arial" font-size="15" fill="#65727e">Training images</text><text x="1030" y="174" font-family="Arial" font-size="16" font-weight="700">2,400</text>
+<text x="638" y="205" font-family="Arial" font-size="15" fill="#65727e">Test images</text><text x="1030" y="205" font-family="Arial" font-size="16" font-weight="700">600</text>
+<text x="638" y="236" font-family="Arial" font-size="15" fill="#65727e">Stress test</text><text x="1030" y="236" font-family="Arial" font-size="16" font-weight="700">800</text>
+<text x="638" y="267" font-family="Arial" font-size="15" fill="#65727e">Stress F1</text><text x="1030" y="267" font-family="Arial" font-size="18" font-weight="700">75.34%</text>
+<text x="638" y="298" font-family="Arial" font-size="15" fill="#65727e">Precision</text><text x="1030" y="298" font-family="Arial" font-size="18" font-weight="700">89.85%</text>
+<text x="638" y="329" font-family="Arial" font-size="15" fill="#65727e">Recall</text><text x="1030" y="329" font-family="Arial" font-size="18" font-weight="700">64.87%</text>
+
+<rect x="35" y="370" width="1130" height="325" rx="12" fill="#fff" stroke="#dae1e7"/>
+<text x="58" y="405" font-family="Arial" font-size="19" font-weight="700" fill="#18212b">Incident Log</text>
+<text x="58" y="438" font-family="Arial" font-size="13" font-weight="700" fill="#65727e">TIME</text>
+<text x="290" y="438" font-family="Arial" font-size="13" font-weight="700" fill="#65727e">TYPE</text>
+<text x="500" y="438" font-family="Arial" font-size="13" font-weight="700" fill="#65727e">SEVERITY</text>
+<text x="700" y="438" font-family="Arial" font-size="13" font-weight="700" fill="#65727e">DESCRIPTION</text>
+<line x1="55" y1="455" x2="1140" y2="455" stroke="#dae1e7"/>
+<text x="58" y="482" font-family="Arial" font-size="14">PPE check</text><text x="290" y="482" font-family="Arial" font-size="14">ppe_check</text><text x="500" y="482" font-family="Arial" font-size="14" font-weight="700" fill="#217e55">normal</text><text x="700" y="482" font-family="Arial" font-size="14">PPE result: compliant</text>
+<line x1="55" y1="500" x2="1140" y2="500" stroke="#eef1f3"/>
+<text x="58" y="527" font-family="Arial" font-size="14">Safety rule</text><text x="290" y="527" font-family="Arial" font-size="14">restricted_zone</text><text x="500" y="527" font-family="Arial" font-size="14" font-weight="700" fill="#af7319">high</text><text x="700" y="527" font-family="Arial" font-size="14">Person entered restricted zone</text>
+<text x="58" y="665" font-family="Arial" font-size="12" fill="#65727e">Generated from the locally running prototype API state. Training data is synthetic.</text>
+</svg>
