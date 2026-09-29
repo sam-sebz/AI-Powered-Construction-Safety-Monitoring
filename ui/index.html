@@ -1,0 +1,9 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Construction PPE Monitor</title><link rel="stylesheet" href="styles.css"></head>
+<body><main><header><h1>Construction PPE Monitor</h1><p>Local computer vision prototype</p></header>
+<section class="grid">
+<article class="card"><h2>PPE Compliance Check</h2><input id="img" type="file" accept="image/*"><button onclick="check()">Run Check</button><pre id="result">Select an image.</pre></article>
+<article class="card"><h2>Model Metrics</h2><pre id="metrics">Loading...</pre></article>
+<article class="card wide"><h2>Incident Log</h2><table><thead><tr><th>Time</th><th>Type</th><th>Severity</th><th>Description</th></tr></thead><tbody id="rows"></tbody></table></article>
+</section></main><script src="app.js"></script></body></html>
