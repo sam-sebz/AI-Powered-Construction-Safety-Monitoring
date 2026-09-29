@@ -2,6 +2,8 @@
 
 Portfolio prototype for construction-site safety monitoring.
 
+![Working UI Preview](screenshots/p1-working-preview.svg)
+
 ## What is included
 - PPE compliance image classifier
 - Restricted-zone safety rule engine
